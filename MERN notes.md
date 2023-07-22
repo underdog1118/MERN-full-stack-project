@@ -14,4 +14,28 @@
 
 ![image-20230721023158351](images/image-20230721023158351.png)
 
-![image-20230721023435059](images/image-20230721023435059.png)
+![image-20230721162042788](images/image-20230721162042788.png)
+
+In such cases it will help to replace (in `package.json`) ...
+
+```
+"start": "react-scripts start" 
+```
+
+... with ...
+
+```
+"start": "react-scripts --openssl-legacy-provider start"
+```
+
+... and ...
+
+```
+"build": "react-scripts build" 
+```
+
+... with ...
+
+```
+"build": "react-scripts --openssl-legacy-provider build"
+```
