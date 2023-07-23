@@ -39,3 +39,19 @@ In such cases it will help to replace (in `package.json`) ...
 ```
 "build": "react-scripts --openssl-legacy-provider build"
 ```
+
+​    *"start"*: "react-scripts --openssl-legacy-provider start",
+
+​    *"build"*: "react-scripts --openssl-legacy-provider build",
+
+==shift + option + F== : prettier auto formatting
+
+## 3. React.js
+
+### 1) props
+
+### 2) state
+
+### 3) components
+
+### 4) hooks
