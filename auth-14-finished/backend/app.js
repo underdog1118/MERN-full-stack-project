@@ -50,8 +50,8 @@ app.use((error, req, res, next) => {
 //change 
 mongoose
   .connect(
-    // `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.mk9bxcu.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`
-    'mongodb+srv://jonqzp27:7ctOVro5VdnvjgTF@cluster0.mk9bxcu.mongodb.net/mern?retryWrites=true&w=majority'
+    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.mk9bxcu.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`
+    // 'mongodb+srv://jonqzp27:7ctOVro5VdnvjgTF@cluster0.mk9bxcu.mongodb.net/mern?retryWrites=true&w=majority'
   )
   .then(() => {
   const PORT = 5000; // Change to a different port number

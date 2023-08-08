@@ -55,3 +55,9 @@ In such cases it will help to replace (in `package.json`) ...
 ### 3) components
 
 ### 4) hooks
+
+
+![image-20230807232609653](images/image-20230807232609653.png)
+
+sudo yum install tmux
+
