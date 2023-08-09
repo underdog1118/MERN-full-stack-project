@@ -54,10 +54,7 @@ mongoose
     // 'mongodb+srv://jonqzp27:7ctOVro5VdnvjgTF@cluster0.mk9bxcu.mongodb.net/mern?retryWrites=true&w=majority'
   )
   .then(() => {
-  const PORT = 5000; // Change to a different port number
-  app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-  });
+  app.listen(process.env.PORT || 5000);
   })
   .catch(err => {
     console.log(err);
