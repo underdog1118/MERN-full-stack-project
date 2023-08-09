@@ -46,6 +46,8 @@ In such cases it will help to replace (in `package.json`) ...
 
 ==shift + option + F== : prettier auto formatting
 
+ctrl + C退出当前命令行
+
 ## 3. React.js
 
 ### 1) props
